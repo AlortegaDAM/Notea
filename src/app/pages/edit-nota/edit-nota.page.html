@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons>
+      <ion-back-button defaultHref="" (click)="this.backButton()" slot="start"></ion-back-button>
+    </ion-buttons>
+    <ion-title>{{ 'EDITAR_NOTA' | translate}}</ion-title>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <form [formGroup]="tasks" (ngSubmit)="this.sendForm()">
+    <ion-item>
+      <ion-input type="text" 
+      formControlName="title"
+      placeholder="{{ 'TÍTULO' | translate}}"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-textarea 
+      formControlName="description"
+      placeholder="{{ 'DESCRIPCIÓN' | translate}}"
+      autocapitalize="true"
+      auto-grow="true"></ion-textarea>
+    </ion-item>
+    <div style="text-align: center;">
+      <ion-button 
+      shape="round"
+      color="primary"
+      fill="outline"
+      type="submit"
+      slot="center"
+      [disabled]="!tasks.valid"><ion-icon name="save"></ion-icon></ion-button>
+  </div>
+  </form>
+</ion-content>

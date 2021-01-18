@@ -1,0 +1,17 @@
+{
+    "BIENVENIDA": "Welcome to Notea ...",
+    "NOTAS": "Notes",
+    "BUSCAR" : "Search note ...",
+    "AÑADIR":"Add",
+    "PERFIL":"Profile",
+    "AÑADIR_TAREA": "Add Task",
+    "TÍTULO":"Title",
+    "DESCRIPCIÓN":"Description",
+    "USER_INFO":"User information",
+    "IDIOMA":"Language",
+    "ES":"Spanish",
+    "EN":"English",
+    "FR":"French",
+    "MODO_OSCURO":"Dark mode",
+    "EDITAR_NOTA":"Edit Note"
+  }

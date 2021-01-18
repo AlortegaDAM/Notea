@@ -1,0 +1,17 @@
+{
+    "BIENVENIDA": "Bienvenido a Notea...",
+    "NOTAS": "Notas",
+    "BUSCAR" : "Buscar nota...",
+    "AÑADIR":"Añadir",
+    "PERFIL":"Perfil",
+    "AÑADIR_TAREA": "Añadir Tarea",
+    "TÍTULO":"Título",
+    "DESCRIPCIÓN":"Descripción",
+    "USER_INFO":"Información de usuario",
+    "IDIOMA":"Idioma",
+    "ES":"Español",
+    "EN":"Inglés",
+    "FR":"Francés",
+    "MODO_OSCURO":"Modo oscuro",
+    "EDITAR_NOTA":"Editar Nota"
+  }
